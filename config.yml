@@ -1,0 +1,10 @@
+log:
+  level: debug #panic, fatal, error, warn, info, debug
+  output: stdout # stdout or path to a file
+itunes:
+  playlists: ["Test"] #Required. List of playlist names. Case sensitive
+  trackOutputFolder: "/Users/<user_name>/Desktop/IPTS/" #Required. Path to sync files to.
+  libraryFile: "/Users/<user_name>/Music/iTunes/iTunes Music Library.xml" #Required. Path to iTunes Music Library.xml.
+  customFileLocation: "" #Optional. Path to custom location for source file.
+  createM3U: true #Optional. Create M3U Playlist
+  watchChanges: false #TODO - Optional. Watch iTunes Library for changes.
